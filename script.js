@@ -146,7 +146,7 @@ const test = function(e){
         ansverText = ansverText[0];
         let x = `${ansverText} - ${map.get(ansverText)}`
         answerP.textContent = x;
-        setTimeout(randomOptions, 2500)
+        setTimeout(randomOptions, 2000)
         // allR[ansver-1].checked = false
         if(ansver == 1){
             p1.style.backgroundColor = 'rgb(137, 255, 91)'
@@ -194,7 +194,7 @@ const test = function(e){
         ansverText = ansverText[0];
         let x = `${ansverText} - ${map.get(ansverText)}`
         answerP.textContent = x;
-        setTimeout(randomOptions, 2500)
+        setTimeout(randomOptions, 2000)
         
     }
 }
